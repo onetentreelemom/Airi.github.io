@@ -6,15 +6,11 @@
     <content type="text"></content>
   </entry>
   <entry>
-    <title><![CDATA[自我介绍]]></title>
-    <url>%2Fairi.github.io%2F2019%2F07%2F12%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[大家好，我是柠檬，大三计算机学院学生，然而编程技术相当烂。喜欢手绘，但画的并不是很好，依旧在修炼之中，建这个博客一是想要记录下自己的手绘黑历史，以及记录一些学习记录。联系方式暂时只有qq可以看到我：1019154887 Hello Hexo我的E-mail Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[第一个博客——个人简介]]></title>
+    <url>%2Fairi.github.io%2F2019%2F07%2F12%2F%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D%2F</url>
+    <content type="text"><![CDATA[自我介绍&emsp;&emsp;大家好，这里是柠檬，计算机学院大二与大三夹缝中（实际在放暑假啦，暑假）的学生，学习成绩并不是很好，编程能力有限。真实肥宅，爱好是手绘、电绘、看番，在学习之余练习，虽然开始绘画已经两年，然而依旧很菜。最近在研究安卓逆向、FlStudio，当然还有手绘的练习。 目的&emsp;&emsp;写博客的目的一是想要记录下自己手绘的黑历史（放心不会给你们看的），还有自己的一些学习记录。如果以后我会约稿的话可能可会发在这里 联系方式&emsp;&emsp;QQ:1019154887]]></content>
       <categories>
-        <category>前端</category>
+        <category>简介</category>
       </categories>
-      <tags>
-        <tag>导航</tag>
-        <tag>标签</tag>
-      </tags>
   </entry>
 </search>
