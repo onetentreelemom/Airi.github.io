@@ -1752,7 +1752,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #860aff;
+  background: #bf39d6;
 }
 .feed-link,
 .chat {
@@ -2967,4 +2967,15 @@ body {
 .btn:hover {
   border-color: rgba(255,255,255,0);
   background: rgba(255,255,255,0);
+}
+.setimage {
+  margin: 0 auto;
+  max-width: 50%;
+  margin-left: 25%;
+}
+.headband {
+  background: rgba(255,255,255,0);
+}
+.site-state-item-name {
+  color: #000;
 }
