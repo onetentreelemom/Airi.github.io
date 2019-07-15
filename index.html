@@ -1584,17 +1584,12 @@
 
 
   
-  <div id="111" class="img1" style="z-index: -1;left: 0%;top: 0px;width: 250px;opacity: 0.8">
+  <div id="111" class="img1" style="z-index: -1;left: 0%;top: 0px;width: 300px;opacity: 0.8">
     <img src="http://i2.tiimg.com/693768/7281377af8f3481b.png">
     <style type="text/css">
       .img1 img{
         margin:0px 0px 0px 0px;
-      }
-      @media(max-width: 500px)
-      {
-        .img1{
-          width: 125px;
-        }
+        max-width: 85%;
       }
     </style>
   <script type="text/javascript">
@@ -1602,20 +1597,23 @@
     a.style.position="fixed";
   </script>
   </div>
-  <div class="img2" style="z-index: -1;position:fixed;right: 0%;top: 0px;width: 300px;opacity: 0.8">
+  <div id="1111" class="img2" style="z-index: -1;position:fixed;right: 0%;top: 0px;width: 300px;opacity: 0.8">
     <img id="img2" src="http://i2.tiimg.com/693768/4e15b7fedc1ca659.png">
     <style type="text/css">
       .img2 img{
         margin:0px 0px 0px auto;
       }
-      @media(max-width: 500px)
-      {
-        .img2{
-          width: 150px;
-        }
-      }
     </style>
   </div>
+  <script type="text/javascript">
+    var x3=window.screen.width;
+    var x4=parseInt(a.style.width);
+    var x5=1280;
+    var x7=document.getElementById("111");
+    var x6=parseInt(x7.style.width)
+    a.style.width=((x4*(x3/x5))/36)*30+"px";
+    x7.style.width=((x4*(x3/x5))/36)*30+"px";
+  </script>
   
 </body>
 </html>
