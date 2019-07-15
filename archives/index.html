@@ -369,7 +369,7 @@
         
           
         
-        嗯..! 目前共计 2 篇日志。 继续努力。
+        嗯..! 目前共计 3 篇日志。 继续努力。
       </span>
       
 
@@ -384,6 +384,41 @@
           <div class="collection-title">
             <h1 class="archive-year" id="archive-year-2019">2019</h1>
           </div>
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+          <a class="post-title-link" href="/airi.github.io/2019/07/15/主题美化实录/" itemprop="url">
+            
+              <span itemprop="name">未完成-next主题美化</span>
+            
+          </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated" datetime="2019-07-15T12:12:32+08:00" content="2019-07-15">
+          07-15
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
         
         
 
@@ -478,6 +513,65 @@
   <aside id="sidebar" class="sidebar">
     <div class="sidebar-inner">
 
+
+      <div id="222" class="selfall" style="z-index: 9999;width: 400px;height: 450px;opacity: 0">
+        <img class="img3" src="http://i2.tiimg.com/693768/8c9de0eba94ba11f.jpg">
+        <style type="text/css">
+        .selfall{
+        background-color: #ffffff;
+        position: absolute;
+        top: 0px;
+        left: 252px;
+        overflow: hidden;
+        display: none;
+        box-shadow: 0px 0px 10px 10px #9999bea0;
+        }
+           .img3{
+            opacity: 0.5;
+            position: relative;
+            max-width: 200%;
+            left: -200px;
+         }
+        </style>
+        <div id="333" class="selftext">
+          <style type="text/css">
+            .selftext{
+              width: 400px;
+              height: 250px;
+              background-color: #ffffffe0;
+              position: absolute;
+              left: 0px;
+              top: 200px;
+            }
+          </style>
+        </div>
+      </div>
+
+      <script type="text/javascript">
+        var a1=document.getElementById("222");
+        var alpha=0;
+        function opacitychange()
+        {
+          if(alpha<100)
+          {
+            alpha+=0.7;
+            a1.style.opacity=alpha/100;
+            setTimeout("opacitychange()",1);
+          }
+          
+        }
+        function show()
+        {
+          alpha=0;
+          a1.style.display="block";
+          opacitychange();
+        }
+        function hide()
+        {
+          a1.style.display="none";
+          a1.style.opacity=0;
+        }
+      </script>
       
 
       
@@ -486,12 +580,12 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/airi.github.io/images/lemon.jpg" alt="airi-lemon">
+              <img onmouseover="show()" onmouseout="hide()" class="site-author-image" itemprop="image" src="/airi.github.io/images/lemon.jpg" alt="airi-lemon">
             
               <p class="site-author-name" itemprop="name">airi-lemon</p>
               <div class="site-description motion-element" itemprop="description"></div>
           </div>
-
+          
           
             <nav class="site-state motion-element">
               
@@ -499,7 +593,7 @@
                 
                   <a href="/airi.github.io/archives/">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -1096,15 +1190,28 @@
 
 
   
-  <div style="z-index: -1;position:fixed;left: 0%;bottom: 0px;width: 80%;opacity: 0.8" id="setimage">
-    <img src="http://i1.fuimg.com/693768/5d54b7e3000a0257.png">
+  <div id="111" class="img1" style="z-index: -1;left: 0%;top: 0px;width: 250px;opacity: 0.8">
+    <img src="http://i2.tiimg.com/693768/7281377af8f3481b.png">
     <style type="text/css">
-      img{
-        width: 300px;
+      .img1 img{
         margin:0px 0px 0px 0px;
+      }
+      .img1{
+      }
+    </style>
+  <script type="text/javascript">
+    var a=document.getElementById("111");
+    a.style.position="fixed";
+  </script>
+  </div>
+  <div class="img2" style="z-index: -1;position:fixed;right: 0%;top: 0px;width: 300px;opacity: 0.8">
+    <img id="img2" src="http://i2.tiimg.com/693768/4e15b7fedc1ca659.png">
+    <style type="text/css">
+      .img2 img{
+        margin:0px 0px 0px auto;
       }
     </style>
   </div>
   
-<script src="/airi.github.io/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</body>
 </html>

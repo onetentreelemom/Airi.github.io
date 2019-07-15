@@ -1716,9 +1716,6 @@ pre .javascript .function {
   border-radius: 50%;
   opacity: 1;
 }
-.site-author-image:hover {
-  transform: rotate(360deg);
-}
 .site-author-name {
   margin: 0;
   text-align: center;
@@ -1752,7 +1749,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a3ffe9;
+  background: #9f4af9;
 }
 .feed-link,
 .chat {
