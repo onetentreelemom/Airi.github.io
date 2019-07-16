@@ -1749,7 +1749,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #aa49c1;
+  background: #d56bdb;
 }
 .feed-link,
 .chat {
@@ -2946,7 +2946,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 0%;
-  font-size: 20px;
 }
 .main-inner {
   background: rgba(255,255,255,0);
@@ -2958,12 +2957,13 @@ body {
   background: rgba(255,255,255,0);
   border: 2px solid rgba(255,255,255,0);
 }
-.menu-item-active a {
-  background: rgba(255,255,255,0.435);
-}
 .btn:hover {
   border-color: rgba(255,255,255,0);
+  color: #000;
   background: rgba(255,255,255,0);
+}
+.menu-item-active a {
+  background: rgba(255,255,255,0.435);
 }
 .setimage {
   margin: 0 auto;
@@ -2975,4 +2975,10 @@ body {
 }
 .site-state-item-name {
   color: #000;
+}
+.site-title {
+  color: #262a30;
+}
+.menu {
+  color: #262a30;
 }
