@@ -1491,7 +1491,7 @@
       display: inline-block;
       position: absolute;
       bottom: -50px;
-      left: 66px;
+      left: 2px;
       box-shadow: 0px 0px 3px 3px #ffffffa0;
       opacity: 0.9;
       border-radius: 50px;
@@ -1595,7 +1595,7 @@
   {
     x19.style.display="none";
     x21.style.display="none";
-    buttonright();
+//  buttonright();记得把left改成2px
     buttonlarge();
   }
   function buttonunextend()
@@ -1619,7 +1619,7 @@
     x8.play();
     x10.style.display="inline-block";
     x9.style.display="none";
-    buttonleft();
+ // buttonleft();
     buttonlittle();
 
     rounding();
@@ -1634,11 +1634,11 @@
   }
   //设置位置
   var x28=document.getElementById("controlid1");
-  var x27=document.documentElement.clientHeight-200+"px";
+  var x27=document.documentElement.clientHeight-240+"px";
     x28.style.top=x27;
   window.onresize=function resetlocal()
   {
-    x27=document.documentElement.clientHeight-200+"px";
+    x27=document.documentElement.clientHeight-240+"px";
     x28.style.top=x27;
   }
 </script>
